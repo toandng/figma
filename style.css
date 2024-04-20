@@ -1,0 +1,870 @@
+*body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    color: #f5f5f5;
+}
+.header{
+    background-color: #00471b;
+    
+}
+.container i{
+    color:#f5f5f5 ;
+}
+.container-right{
+    margin: 10px;
+    padding:5px 0px 5px 0px;
+    gap: 10px;
+}
+.container-right button{
+    border-radius: 10px;
+    background-color: #00471b;
+    color: #f5f5f5;
+    border: 1px solid;
+}
+.container-left{
+    padding: 5px 0px 5px 0px;
+    margin: 10px;
+}
+
+/*............nav.........*/
+ul{
+    list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.container-left img{
+    width: 150px;
+}
+.container-right ul{
+    display: flex;
+    justify-content: space-between;
+}
+/*..........Section............*/
+.section img{
+    width: 100%;
+}
+/*..........Container..........*/
+.container-top{
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    color: black;
+    position: relative;
+}
+
+.container-top-left h1{
+    color: #00471b;
+    position: relative;
+    left: 90px;
+    bottom: 40px;
+}
+
+.container-top span{
+    color: #00471b;
+    font-size: 30px;
+    position: relative;
+    bottom: 40px;
+}
+.container-top p{
+    font-size: 14px;
+    position: relative;
+    bottom: 35px;
+    margin: 5px;
+}
+.container-top-left img{
+    background-color: #00471b;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 50px 10px;
+    padding: 36px 32px 36px 32px;
+    gap: 10px;
+}
+.container-top-center h1{
+   color: #00471b;
+    position: relative;
+    bottom: 45px;
+    left: 35px;
+}
+.container-top-center span{
+    color: #00471b;
+    font-size: 30px;
+    position: relative;
+    left: 60px;
+    
+}
+.container-top-right h1{
+    color: #00471b;
+    position: relative;
+    bottom: 45px;
+    left: 90px;
+}
+.container-top-right span{
+    color: #00471b;
+    font-size: 30px;
+    position: relative;
+    left: 45px;
+}
+.container-top-center img{
+    background-color: #00471b;
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 50px 10px;
+    padding: 36px 32px 36px 32px;
+    gap: 10px;
+}
+.container-top-right img{
+    background-color: #00471b;
+    border-radius: 50px;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 50px 10px;
+    padding: 36px;
+    gap: 10px;
+}
+/*......container down........*/
+.container-down{
+    color: black;
+    display: grid;
+    grid-template-columns: 500px 609px;
+    background-color: #f5f5f5;
+}
+.container-down-left h1{
+    text-align: center;
+    color: #00471b;
+    position: relative;
+    left: 55px;
+}
+.container-down-left span {
+    font-size: 24px;
+    position: relative;
+    left: 260px;
+    color: #00471b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-down-left p{
+    position: relative;
+    left: 150px;
+}
+.container-down-right h1{
+    text-align: center;
+    color: #00471b;
+}
+.container-down-right span{
+    font-size: 24px;
+    position: relative;
+    left: 260px;
+    color: #00471b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-down-right p{
+    position: relative;
+    left: 150px;
+}
+/*.............frame-container........*/
+.frame-top h1{
+    color: #00471b;
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    left: 200px;
+    margin: 50px;
+    padding: 5px 10px;
+    
+}
+.frame-down img{
+    width: 100%;
+}
+/*..........Container-frame-2......*/
+.container-frame-2{
+    text-align: center;
+    font-size: 26px;
+    color: #00471b;
+    margin: 50px;
+    padding: 10px 0px 10px 0px;
+}
+.container-menu{
+    background-color:#f5f5f5;
+
+}
+.container-frame-3 img{
+    background-color: #00471b;
+   
+}
+.container-frame-3-left img {
+    margin: 10px;
+    padding: 20px 20px 20px 20px;
+    width: 80px;
+    height: 88px;
+    border-radius: 20px;
+    background-color: #8dc145;
+    position: relative;
+    left: 30px;
+
+}
+.container-frame-3 img:nth-child(1){
+    background-color: #00471b;
+}
+.container-frame-3-left p{
+    color: #1f5d36;
+    font-size: 20px;
+    display: inline;
+    position: relative;
+    left: 20px;
+}
+.container-frame-4{
+    background-color: #f5f5f5;
+    margin: 30px;
+    padding: 10px 20px 10px 20px;
+}
+.container-frame-4 p{
+    font-family: Arial, Helvetica,sans-serif;
+    display: inline;
+    font-size: 24px;
+    
+}
+.container-frame-4 i{
+    color: #f5f5f5;
+    background-color: #8dc145;
+    font-size: 20px;
+    border-radius: 50px;
+    
+}
+/*.............meunu-2..........*/
+.menu-content{
+    max-width: 1440px;
+    max-height: 986px;
+    background-color: #f5f5f5
+}
+.container-2{
+    background-color: #f5f5f5;
+    max-width: 1224px;
+    max-height: 81px;
+    position: relative;
+    left: 50px;
+    
+}
+.container-menu-2 h1{
+    color: #00471b;
+    text-align: center;
+    display: block;
+    align-items: center;
+}
+.container-3{
+    background-color: #f5f5f5;
+    max-width: 1222px;
+    max-height: 604px;
+    position: relative;
+    left: 50px;
+
+}
+.container-menu-3-top{
+    display: grid;
+    grid-template-columns: 450px 440px 450px;
+    text-align: center;
+    
+}
+.container-meuu-3-left p{
+    color: #00471b;
+    font-size: 24px;
+    margin: 10px;
+    
+}
+.container-menu-3-left span{
+    gap: 15px;
+    display: inline;
+}
+.container-menu-3-center p{
+    color: #00471b;
+    font-size: 24px;
+    margin: 10px;
+
+}
+.container-menu-3-down p{
+    color: #00471b;
+    font-size: 24px;
+    margin: 10px;
+}
+.container-menu-3-top{
+    background-color: #f5f5f5;
+}
+/*.........container-img........*/
+.container-img{
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+
+}
+/*...........container-4..........*/
+.content{
+    max-width: 1440px;
+    max-height: 899px;
+    box-shadow:0px 0px 17px 2px rgba(255,255,255, 0.8);
+    background-color: #ffff;
+    
+}
+.container-4-top h1{
+    color: #00471b;
+    text-align: center;
+    font-size: 24px;
+    margin: 50px;
+}
+.container-4{
+    max-width: 1224px;
+    max-height: 561px;
+    display: grid;
+    grid-template-columns: 230px 1000px;
+
+}
+.container-4-left{
+    max-width: 230px;
+    max-height:  540px;
+    display: grid;
+    grid-template-rows: 215px 215px 215px;
+    
+
+}
+.container-4-left{
+    position: relative;
+    left: 20px;
+}
+.container-4-left-top p{
+    color: #f5f5f5;
+    background-color: #8dc145;
+    height: 215px;
+    width: 215px;
+    border: 1px solid black;
+
+}
+.container-4-left-center p{
+    color: #f5f5f5;
+    background-color: #00471b;
+    height: 215px;
+    width: 215px;
+    border: 1px solid black;
+}
+.container-4-left-down p{
+    color: #f5f5f5;
+    background-color: #00471b;
+    height: 215px;
+    width: 215px;
+    border: 1px solid black;
+}
+.container-4-right{
+    width: 1000px;
+    height: 561px;
+    display: grid;
+    grid-template-columns: 468px 468px;
+    position: relative;
+    left: 40px;
+    margin: 10px 5px 10px 5px;
+    padding: 10px 10px 10px 20px;
+    gap: 20px;
+
+}
+.container-4-right{
+    position: relative;
+    left: 30px;
+}
+
+.container-4-right-top-left span{
+    font-family: Trebuchet MS
+    Helvetica;
+}
+.container-4-right-top-right span{
+    font-family: Trebuchet MS
+    Helvetica;
+}
+.container-4-right-down-left span{
+    font-family: Trebuchet MS
+    Helvetica;
+}
+.container-4-right-down-right span{
+    font-family:Trebuchet MS
+    Helvetica;
+}
+.container-4-right-top-left{
+    margin: 20px;
+    
+}
+.container-4-right-top-right{
+    margin: 40px;
+}
+
+.container-4-right-down-right{
+    position: relative;
+    
+}
+.container-4-right-top-left i{
+    color: #f5f5f5;
+    background-color: #8dc145;
+    font-size: 20px;
+    border-radius: 50px;
+    
+}
+.container-4-right-top-right i{
+    color: #f5f5f5;
+    background-color: #8dc145;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.container-4-right-down-left i{
+    color: #f5f5f5;
+    background-color: #8dc145;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.container-4-right-down-right i{
+    color: #f5f5f5;
+    background-color: #8dc145;
+    font-size: 20px;
+    border-radius: 50px;
+}
+/*........img-2......*/
+.container-img-2 {
+    text-align: center;
+    margin: 160px;
+}
+/*............Container-5..........*/
+.container-5{
+    max-width: 1440px;
+    max-height: 1338px;
+    background-color: #f5f5f5;
+
+}
+.container-5-top h2{
+    text-align: center;
+    color: #00471b;
+    font-size: 24px;
+}
+.container-5-center-1{
+    display: grid;
+    grid-template-columns: 397px 397px 397px;
+    color: #f5f5f5;
+    max-width: 1224px;  
+    max-height: 888px;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    margin: 50px
+}
+/*........container-top-left......*/
+.container-5-top-left{
+    background-color: #00471b;
+    max-height: 448px;
+    position: relative;
+    border: 1px solid;
+    margin: 0px 4px;
+    
+}
+.container-top-5-left img{
+    position: relative;
+    bottom: 50px;
+}
+.container-top-5-left p{
+    position: relative;
+    bottom: 130px;
+
+}
+.container-top-5-left span{
+    position: relative;
+    bottom: 120px;
+    font-size: 14px;
+
+}
+/*....center...*/
+.container-top-5-center{
+    background-color: #00471b;
+    max-height: 448px;
+    position: relative;
+    margin: 0px 14px;
+    
+}
+.container-top-5-center img{
+    position: relative;
+   
+}
+.container-top-5-center p{
+    position: relative;
+    bottom: 120px;
+}
+
+/*......right.....*/
+.container-top-5-right{
+    background-color: #00471b;
+    max-height: 448px;
+    position: relative;
+}
+
+.container-5-center-1 span{
+    color: white;
+}
+.container-5-center-2{
+    display: grid;
+    grid-template-columns: 397px 390px 397px;
+    color: #f5f5f5;
+    text-align: center;
+    margin: 10px 5px;
+    position: relative;
+    left: 40px;
+    margin: 50px;
+    bottom: 45px;
+}
+.container-center-left{
+    font-size: 14px;
+    margin: 5px 10px;
+    background-color: #8dc145;
+    height: 390px;
+}
+.container-center-center{
+    font-size: 14px;
+    margin: 5px 7px;
+    background-color: #8dc145;
+ 
+}
+.container-center-right{
+    font-size: 14px;
+    margin: 5px 7px;
+    background-color: #8dc145;
+}
+.container-5-center-2 p{
+    font-size: 18px;
+}
+/*.......container-5-img....*/
+.container-5-down{
+    text-align: center;
+    background-color: #f5f5f5;
+}
+/*..........Frame.....*/
+.container-6{
+    text-align: center;
+    color: #00471b;
+}
+.container-7{
+    max-width: 1440px;
+    max-height: 666px;
+    padding: 60px 10px 60px 10px ;
+    background-color: #ecfee3;
+}
+.container-8{
+    max-width: 1200px;
+    max-height: 384px;
+    
+}
+.container-8-menu{
+    display: grid;
+    grid-template-columns: 450px 418px 373px;
+}
+.frame-6{
+    margin: 0px 70px;
+}
+.frame-6 img{
+    width: 150px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+
+}
+.frame-6 p{
+    font-size: 24px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    color: #00471b;
+}
+.frame-6 span{
+    font-size: 14px;
+    position: relative;
+    
+}
+.frame-7{
+    margin: 0px 50px;
+}
+.frame-7 img{
+    width: 150px;
+    position: relative;
+    left: 70px;
+}
+.frame-7 p{
+    font-size: 24px;
+    position: relative;
+    left: 50px;
+    
+    color: #00471b;
+}
+.frame-7 span{
+    font-size: 14px;
+    position: relative;
+}
+.frame-8{
+    margin: 0px 50px;
+}
+.frame-8 img{
+    width: 150px;
+    position: relative;
+    left: 70px;
+}
+.frame-8 p{
+    font-size: 24px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    color: #00471b;
+}
+.frame-8 span{
+    font-size: 14px;
+    position: relative;
+    top: 40px;
+}
+/*...........Container-frame-9....*/
+.container-frame-9{
+    max-width: 1440px;
+    max-height: 775px;
+    padding: 30px 0px 50px 0px;
+    gap: 60px;
+}
+.frame-11-top h2{
+    line-height: 41.02px;
+    color: #00471b;
+    text-align: center;
+}
+.container-frame-12{
+    max-width: 1224px;
+    max-height: 553px;
+    gap: 18px;
+    display: flex;
+
+}
+.frame-12-left{
+    max-width: 653px;
+    max-height: 342px;
+    gap: 15px;
+    position: relative;
+    left: 30px;
+}
+.frame-12-left p{
+    color: #00471b;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+}
+.frame-12-left h1{
+    color: #00471b;
+    position: relative;
+    top: 20px;
+}
+.frame-12-left span{
+    position: relative;
+    top: 20px;
+}
+.frame-12-left i{
+    position: relative;
+    top: 15px;
+}
+
+.frame-12-right{
+    max-width: 553px;
+    max-height: 553px;
+}
+.frame-12-right img{
+    position: relative;
+    left: 50px;
+    margin: 20px 10px;
+}
+/*.........container-frame-13....*/
+.container-frame-13{
+    max-width: 1440px;
+    max-height: 724px;
+    padding: 60px 0px 80px 0px;
+    gap: 60px;
+    background-color: #f5f5f5;
+}
+.container-frame-15{
+    width: 1224px;
+    height: 82px;
+    
+}
+.frame-15-top h2{
+    color: #00471b;
+    text-align: center;
+}
+.container-frame-16{
+    max-width: 1224px;
+    max-height: 442px;
+    gap: 70px;
+    display: grid;
+    grid-template-columns: 371px 370px 361px;
+    text-align: center;
+    position: relative;
+    left: 60px;
+    padding: 5px 0px 5px 0px;
+   
+}
+.container-frame-20{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    
+}
+/*.........container-frame-21.........*/
+.container-frame-21{
+    background-image: linear-gradient(0,rgba(0,71,27,0.85),rgba(0,71,27,0.85)),
+    url(/img/1haha.png);
+    height: 100vh;
+   background-color: #00471b;
+}
+.frame-23-top h2{
+    text-align: center;
+    color: #f5f5f5;
+    line-height: 41.02px;
+    width: 700px;
+    position: relative;
+    left: 400px;
+
+}
+.container-frame-22{
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+}
+.frame-24-right{
+    background-color: #8dc145;
+    border-radius: 12px;
+    width: 553px;
+    height: 512px;
+    padding: 50px 0px 50px 0px;
+    gap: 30px;
+
+}
+#form-login{
+    text-align: start;
+}
+#form-login h2{
+    text-align: center;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    height: 44px;
+    width: 500px;
+    border-radius: 6px;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ffff;
+    background-color: #ffff;
+    margin: 5px 5px;
+}
+
+.form-submit{
+    background-color: #00471b;
+    color: #fff;
+    border: 1px solid #f5f5f5;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    left: 180px;
+    height: 44px;
+    width: 176px;
+   
+
+}
+.form-input a,img{
+    position: relative;
+    right: 30px;
+}
+.frame-24-left i{
+    color:#8dc145;
+    font-size: 28px;
+
+}
+.frame-24-left p{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    font-size: 24px;
+}
+.frame-24-left ul,li{
+    position: relative;
+    top: 50px;
+    margin: 3px 3px;
+    
+}
+.frame-24-left span{
+    position: relative;
+    top: 150px;
+    left: 20px;
+}
+/*.......container-frame-25......*/
+.container-frame-25{
+    max-height: 528px;
+    max-width: 1440px;
+    padding: 30px 0px 50px 0px;
+    gap: 60px;
+}
+.container-frame-26{
+    max-width: 1224px;
+    height: 82px;
+}
+.container-frame-26 h2{
+    margin: 30px;
+    text-align: center;
+    color: #00471b;
+}
+.frame-27 img{
+    text-align: center;
+    height: 306px;
+    width: 1224px;
+    position: relative;
+    left: 50px;
+}
+/*.....container-29......*/
+.container-frame-28{
+    max-width: 1440px;
+    height: 1176;
+    padding: 80px 0px 80px 0px;
+    gap: 60px;
+    margin: 30px;
+}
+.frame-29-top{
+    text-align: center;
+    color: #00471b;
+}
+.frame-29-center{
+    text-align: center;
+    margin: 30px;
+}
+.frame-29-down b{
+    font-size: 24px;
+    margin: 10px;
+}
+.frame-29-down span{
+    font-size: 14px;
+    margin: 5px 0px 5px 0px;
+    
+}
+/*............footer......*/
+.container-frame-30{
+    max-width: 1440px;
+    height: 307px;
+    padding: 80px 10px 80px 10px;
+    gap: 10px;
+    background-color: #00471b;
+}
+.container-frame-31 img{
+    text-align: center;
+    color: #00471b;
+}
